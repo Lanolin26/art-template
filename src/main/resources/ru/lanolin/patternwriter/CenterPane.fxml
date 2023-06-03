@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="1024.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.lanolin.patternwriter.controller.CenterPane">
+   <children>
+      <TabPane prefHeight="1024.0" prefWidth="1280.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="General">
+            <content>
+                <fx:include source="tabs/generalTab.fxml" />
+            </content>
+          </Tab>
+          <Tab text="Include pattern">
+            <content>
+                <fx:include source="tabs/includePatternTab.fxml" />
+            </content>
+          </Tab>
+            <Tab text="Exclude pattern">
+                <content>
+                    <fx:include source="tabs/excludePatternTab.fxml" />
+                </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
