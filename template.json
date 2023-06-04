@@ -1,0 +1,12 @@
+{
+  "excludesPattern": "exclude,main/**",
+  "includesPattern": "incdlue,main/**",
+  "key": "tdc-local",
+  "packageType": "generic",
+  "password": "pawd",
+  "rclass": "remote",
+  "repoLayoutRef": "ivy-default",
+  "storeArtifactsLocally": "true",
+  "url": "https://art.i/artifactory",
+  "username": "username"
+}

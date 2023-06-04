@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.FXCollections?><?import javafx.scene.control.ChoiceBox?><?import ru.lanolin.patternwriter.CustomPair?>
+<ChoiceBox prefWidth="150.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" layoutX="36.0" layoutY="93.0" >
+    <items>
+        <FXCollections fx:factory="observableArrayList">
+            <CustomPair key="create" value="Create"/>
+            <CustomPair key="update" value="Update"/>
+        </FXCollections>
+    </items>
+</ChoiceBox>
+
